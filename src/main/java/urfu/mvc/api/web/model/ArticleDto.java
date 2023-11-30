@@ -1,4 +1,4 @@
-package urfu.mvc.firstmvc.web.model;
+package urfu.mvc.api.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
