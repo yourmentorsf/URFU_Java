@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{/layouts/base}"
+>
+<head>
+    <title>
+        Create Item
+    </title>
+</head>
+
+
+<body>
+<section layout:fragment="content">
+    <h2>
+        Create Item
+    </h2>
+    <form action="#" th:action="@{/articles/create}" th:object="${article}" method="post">
+        <label for="title">Title</label>
+        <input id="title" type="text" th:field="*{title}" placeholder="Name"/>
+        <label for="content">Article Content</label>
+        <textarea id="content" th:field="*{content}" placeholder="Write something here"></textarea>
+        <button type="submit">Create</button>
+    </form>
+</section>
+</body>
+</html>
