@@ -19,4 +19,4 @@
 
 ## Вебинар 4
 
-[Ссылка на ветку](https://github.com/yourmentorsf/URFU_Java/tree/webinar4)
+[Ссылка на презентацию](https://docs.google.com/presentation/d/1Up8_NM0aViVEn-6s8TBIalnidqxfDaf_WFsKQNfRnqg/edit?usp=sharing)
